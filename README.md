@@ -34,6 +34,8 @@ system_of_booking/
 │   ├── test_service.cpp
 │   └── test_storage.cpp
 └── data/                     # файлы с данными (tables.txt, bookings.txt)
+
+
 Person (abstract)               Booking (abstract)
  ├─ name, phone                  ├─ id, customer, table, date, time, guests
  ├─ virtual getRole() = 0        ├─ virtual calculateDeposit() = 0
